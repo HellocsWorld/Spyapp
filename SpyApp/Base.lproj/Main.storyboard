@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_5" orientation="landscape">
+    <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,17 +15,17 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="SpyAppViewController" customModule="SpyApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" colorLabel="IBBuiltInLabel-Red">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IU8-P1-mBo">
-                                <rect key="frame" x="58" y="4" width="776" height="30"/>
+                                <rect key="frame" x="14" y="48" width="382" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="48c-5E-e8N">
-                                <rect key="frame" x="58" y="295" width="776" height="125"/>
+                                <rect key="frame" x="14" y="339" width="382" height="125"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="125" id="gaS-GF-ske"/>
                                 </constraints>
@@ -34,13 +34,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4B7-dH-Qje">
-                                <rect key="frame" x="56" y="61" width="776" height="30"/>
+                                <rect key="frame" x="12" y="105" width="382" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cW2-gE-Std">
-                                <rect key="frame" x="60" y="153" width="49" height="30"/>
+                                <rect key="frame" x="16" y="197" width="49" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="49" id="jhl-7x-7mi"/>
@@ -51,15 +51,15 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="iib-Ki-qdR">
-                                <rect key="frame" x="257" y="99" width="445" height="50"/>
+                                <rect key="frame" x="213" y="143" width="51" height="50"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rin-db-Lr0">
-                                        <rect key="frame" x="0.0" y="0.0" width="445" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="51" height="50"/>
                                     </stackView>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kk9-NG-sEm" colorLabel="IBBuiltInLabel-Red">
-                                <rect key="frame" x="691" y="207" width="141" height="30"/>
+                                <rect key="frame" x="253" y="251" width="141" height="30"/>
                                 <color key="backgroundColor" red="0.28646241283352836" green="1" blue="0.15861921557691738" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="141" id="Kve-qO-9sY"/>
@@ -71,7 +71,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kq1-Ko-TkT">
-                                <rect key="frame" x="56" y="207" width="544" height="30"/>
+                                <rect key="frame" x="12" y="251" width="150" height="30"/>
                                 <color key="backgroundColor" red="0.25464982938872527" green="1" blue="0.12911042533451977" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title="Encode">
@@ -81,24 +81,24 @@
                                     <action selector="encodeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oxW-wn-ML6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RXD-8a-NWb">
-                                <rect key="frame" x="176" y="153" width="54" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RXD-8a-NWb">
+                                <rect key="frame" x="176" y="197" width="54" height="30"/>
                                 <color key="backgroundColor" red="0.069046136450000004" green="0.47306698009999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="MorseC"/>
                                 <connections>
                                     <action selector="cipherButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yc5-6W-hfE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PP4-7n-Ldh">
-                                <rect key="frame" x="250" y="153" width="53" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PP4-7n-Ldh">
+                                <rect key="frame" x="250" y="197" width="53" height="30"/>
                                 <color key="backgroundColor" red="0.069046136446105466" green="0.47306698006861414" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="PhoneC"/>
                                 <connections>
                                     <action selector="cipherButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pYv-Id-8vN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGX-rV-bzE">
-                                <rect key="frame" x="91" y="153" width="56" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGX-rV-bzE">
+                                <rect key="frame" x="91" y="197" width="56" height="30"/>
                                 <color key="backgroundColor" red="0.069046136446105466" green="0.47306698006861414" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="A#C"/>
                                 <connections>
@@ -106,7 +106,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" highlighted="YES" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3tk-xw-1rH">
-                                <rect key="frame" x="71" y="428" width="746" height="228"/>
+                                <rect key="frame" x="27" y="472" width="352" height="228"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

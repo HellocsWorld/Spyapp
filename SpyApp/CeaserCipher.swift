@@ -19,6 +19,9 @@ struct alphanumericCesarCipher: Cipher {
         guard let shiftby = Int(secret) else {
             return nil
         }
+        if shiftby == 0 {
+            return charact
+        }
         var encoded = ""
         var count: Int = 0
         
@@ -63,9 +66,12 @@ struct alphanumericCesarCipher: Cipher {
         guard let shiftby = Int(msg) else {
             return nil
         }
+        
+        if shiftby == 0 {
+            return charact
+        }
         var decoded = ""
         var count: Int = 0
-        
         
         for character in charact {
             count = 0

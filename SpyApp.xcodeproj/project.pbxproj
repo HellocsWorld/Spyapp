@@ -18,6 +18,9 @@
 		B8B69B99214CE1E600C50A28 /* CeaserCipherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B69B98214CE1E600C50A28 /* CeaserCipherTests.swift */; };
 		B8B69BA0214DC2DB00C50A28 /* MorseCodeCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B69B9F214DC2DB00C50A28 /* MorseCodeCipher.swift */; };
 		B8B69BA2214E5B1000C50A28 /* PhoneCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B69BA1214E5B1000C50A28 /* PhoneCipher.swift */; };
+		B8BDB2F72151F3CA006E263A /* alphanumericCesarCipherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BDB2F62151F3CA006E263A /* alphanumericCesarCipherTests.swift */; };
+		B8BDB2F92151FDFF006E263A /* MorseCodeCipherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BDB2F82151FDFF006E263A /* MorseCodeCipherTests.swift */; };
+		B8BDB2FB21520E46006E263A /* PhoneCipherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BDB2FA21520E46006E263A /* PhoneCipherTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		B8B69B98214CE1E600C50A28 /* CeaserCipherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeaserCipherTests.swift; sourceTree = "<group>"; };
 		B8B69B9F214DC2DB00C50A28 /* MorseCodeCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseCodeCipher.swift; sourceTree = "<group>"; };
 		B8B69BA1214E5B1000C50A28 /* PhoneCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneCipher.swift; sourceTree = "<group>"; };
+		B8BDB2F62151F3CA006E263A /* alphanumericCesarCipherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alphanumericCesarCipherTests.swift; sourceTree = "<group>"; };
+		B8BDB2F82151FDFF006E263A /* MorseCodeCipherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseCodeCipherTests.swift; sourceTree = "<group>"; };
+		B8BDB2FA21520E46006E263A /* PhoneCipherTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneCipherTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 			children = (
 				970E4DE92138EC8700BA3EE9 /* SpyAppTests.swift */,
 				B8B69B98214CE1E600C50A28 /* CeaserCipherTests.swift */,
+				B8BDB2F62151F3CA006E263A /* alphanumericCesarCipherTests.swift */,
+				B8BDB2F82151FDFF006E263A /* MorseCodeCipherTests.swift */,
+				B8BDB2FA21520E46006E263A /* PhoneCipherTest.swift */,
 				970E4DEB2138EC8700BA3EE9 /* Info.plist */,
 			);
 			path = SpyAppTests;
@@ -225,8 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8BDB2F92151FDFF006E263A /* MorseCodeCipherTests.swift in Sources */,
 				970E4DEA2138EC8700BA3EE9 /* SpyAppTests.swift in Sources */,
+				B8BDB2FB21520E46006E263A /* PhoneCipherTest.swift in Sources */,
 				B8B69B99214CE1E600C50A28 /* CeaserCipherTests.swift in Sources */,
+				B8BDB2F72151F3CA006E263A /* alphanumericCesarCipherTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
