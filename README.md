@@ -1,9 +1,9 @@
 # Spyapp
 Swift app
 #
-# Important
+# Important Instructions 
 
-# For the morse code the bullet points are inserted by pushing option and 8 at the same time. also the slashes can be changed to solid line if SMART PUNTUATION is on in the iphone simulator (I had to disable it for xcode 10 only)
+For the morse code the bullet points are inserted by pushing option and 8 at the same time. also the slashes can be changed to solid line if SMART PUNTUATION is on in the iphone simulator (I had to disable it for xcode 10 only)
 
 Morse code Cipher
 the morse code cipher has been designed in such a way that does not need a secret keyword and thus any value in the secret part is ingnored. the code is display as in the morse alphabet as follow.
@@ -52,7 +52,7 @@ the morse code cipher has been designed in such a way that does not need a secre
 "/": "-••-•", 
 " ": "/"
 
-Phone Cypher
+# Phone Cypher
 
 The phone code is really cool because not a lot of people know it. 
 It is just the number the letter is on and then what number it is on that number. 
