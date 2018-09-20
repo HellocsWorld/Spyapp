@@ -59,6 +59,7 @@ the morse code cipher has been designed in such a way that does not need a secre
 The phone code is really cool because not a lot of people know it. 
 It is just the number the letter is on and then what number it is on that number. 
 For example, A is on the 1st number on 2, so it would be 2 1. 
+
 A=21   
 B=22    
 C=23    
